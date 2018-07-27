@@ -25,11 +25,11 @@ const keys = instance.keys();
 
 ### options
 
-* keyBuffer {sharedArrayBuffer} store key buffer
-* keyBufferLength {Number} store key buffer size, default is `1024 * 1024 * 5`
-* valueBuffer {sharedArrayBuffer} store value buffer
-* valueBufferLength {Number} store key buffer size, default is `1024 * 1024 * 100`
-* reservedLength {Number} reserved size in key buffer and value buffer, default is 1
-* encrypt
-  * encode(string, encoding)
-  * decode(buffer, encoding)
+* `keyBuffer` {sharedArrayBuffer} store key buffer
+* `keyBufferLength` {Number} store key buffer size, default is `1024 * 1024 * 5`
+* `valueBuffer` {sharedArrayBuffer} store value buffer
+* `valueBufferLength` {Number} store key buffer size, default is `1024 * 1024 * 100`
+* `reservedLength` {Number} reserved size in key buffer and value buffer, default is 1
+* `encrypt`
+  * `encode(string, encoding)`
+  * `decode(buffer, encoding)`

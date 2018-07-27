@@ -1,0 +1,28 @@
+{
+  "name": "shared-array-buffer-store",
+  "version": "1.0.0",
+  "keywords": [
+    "sharedArrayBuffer",
+    "worker_threads",
+    "arrayBuffer",
+    "Uint32Array"
+  ],
+  "description": "use sharedArrayBuffer to store data",
+  "main": "lib.index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/welefen/sharedArrayBufferStore.git"
+  },
+  "author": "welefen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/welefen/sharedArrayBufferStore/issues"
+  },
+  "homepage": "https://github.com/welefen/sharedArrayBufferStore#readme"
+}

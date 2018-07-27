@@ -8,12 +8,13 @@
     "Uint32Array"
   ],
   "description": "use sharedArrayBuffer to store data",
-  "main": "lib.index.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --fix lib/",
+    "test": "nyc ava --serial && rm -rf ./coverage && mkdir ./coverage && nyc report --reporter=html"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/welefen/sharedArrayBufferStore/issues"
   },
-  "homepage": "https://github.com/welefen/sharedArrayBufferStore#readme"
+  "homepage": "https://github.com/welefen/sharedArrayBufferStore#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^5.2.0",
+    "eslint-config-think": "^1.0.2",
+    "eslint-plugin-import": "^2.13.0",
+    "nyc": "^12.0.2"
+  }
 }

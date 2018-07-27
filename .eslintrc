@@ -1,0 +1,7 @@
+{
+  "extends": "think",
+  "globals": {
+    "SharedArrayBuffer": true,
+    "Atomics": true
+  }
+}
